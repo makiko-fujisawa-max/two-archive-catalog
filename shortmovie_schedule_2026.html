@@ -32,12 +32,15 @@ h1 {
 }
 table {
   border-collapse: collapse;
-  width: auto;
+  width: 100%;
+  table-layout: fixed;
 }
 th, td {
   border: 1px solid #bbb;
   padding: 6px 8px;
   vertical-align: top;
+  overflow-wrap: break-word;
+  word-break: break-all;
 }
 .cat {
   background: #f5f5f5;
@@ -104,6 +107,7 @@ th, td {
   <div class="launch-note">★ 10月　毎日配信開始<br>公開前ストック目標：60本</div>
 </div>
 
+<div style="width:720px;">
 <table>
   <thead>
     <tr>
@@ -275,6 +279,7 @@ th, td {
 
   </tbody>
 </table>
+</div>
 
 <!-- ─── 社内フィードバックフロー ─── -->
 <h2 style="font-size:16px; font-weight:bold; margin: 36px 0 14px;">社内フィードバックフロー</h2>
